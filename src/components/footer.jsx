@@ -7,7 +7,7 @@ import {ImYoutube2} from "react-icons/im"
 
 export default function Flowfooter(){
     return(<>
-    <Footer bgDark={true} className="bottom-0 static">
+    <Footer bgDark={true} className="shadow Sticky bottom-0 z-10 l-screen">
   <div className="w-full text-center">
     <div className="grid w-full grid-cols-2 gap-8 py-8 px-6 md:grid-cols-4">
     <Footer.Brand

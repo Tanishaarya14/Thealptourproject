@@ -1,6 +1,7 @@
 
 body{
     background: url('./Images/mount5.jpg');
+    background-image-filter: blur(2px) ;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;

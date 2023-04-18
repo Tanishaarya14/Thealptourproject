@@ -2,12 +2,8 @@ import { Navbar } from "flowbite-react"
 import { Link } from "react-router-dom"
 export default function Flownavbar() {
     return (<>
-        <Navbar
-            fluid={true}
-            rounded={true}
-        >
-            <Navbar.Brand
-            >
+        <Navbar className="shadow sticky top-0 z-50 w-screen"> 
+            <Navbar.Brand>
                 <img
                     src="Images/logo.png"
                     className="mr-3 h-10 sm:h-12"
@@ -20,11 +16,13 @@ export default function Flownavbar() {
             <Navbar.Toggle />
             <Navbar.Collapse>
                 <Navbar.Link>
-                <Link to="/">Home </Link>
-                    
+                <Link to="/">Home </Link>   
                 </Navbar.Link>
                 <Link to="/about"> About
                 </Link>
+                <Navbar.Link>
+                <Link to="/explore">Explore</Link>
+                </Navbar.Link>
                 <Navbar.Link>
                 <Link to="/Departments">Services</Link>
                 </Navbar.Link>
@@ -36,7 +34,5 @@ export default function Flownavbar() {
                 </Navbar.Link>
             </Navbar.Collapse>
         </Navbar>
-        
-
     </>)
 }

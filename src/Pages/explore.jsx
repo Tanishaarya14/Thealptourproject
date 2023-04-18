@@ -1,10 +1,11 @@
 import React from 'react'
+import Flowcarousel from '../components/carousel'
 
-const explore = () => {
-  return (
-       <>
-       </>
-  )
+
+
+
+export default function explore() {
+  return (<>
+           <Flowcarousel></Flowcarousel>
+    </>)
 }
-
-export default explore

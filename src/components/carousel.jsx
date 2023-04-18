@@ -27,6 +27,26 @@ export default function Flowcarousel(){
       src="Images/Raja.jpg"
       alt="..."
     />
+     <img
+      src="Images/Amrit.jpg"
+      alt="..."
+    />
+    <img
+      src="Images/delhi.jpg"
+      alt="..."
+    />
+    <img
+      src="Images/tamil.jpg"
+      alt="..."
+    />
+    <img
+      src="Images/rishi.jpg"
+      alt="..."
+    />
+    <img
+      src="Images/mumbai.jpg"
+      alt="..."
+    />
   </Carousel>
 </div>
     )

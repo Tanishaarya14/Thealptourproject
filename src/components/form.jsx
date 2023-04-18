@@ -67,5 +67,6 @@ export default function Flowform(){
     Register new account
   </Button>
 </form> 
+
   </>)
 }

@@ -4,7 +4,7 @@ export default function Flowcard(){
     return (<>
     <div className="flex flex-wrap justify-evenly text-justify">
     <div className="max-w-sm m-3 p-3">
-  <Card imgSrc="Images/buses.jpg">
+  <Card imgSrc="Images/bus.jpg">
     
     <h5 className="text-2xl font-bold tracking-tight text-black-600 dark:text-white">
       Buses
@@ -34,7 +34,7 @@ export default function Flowcard(){
 </div>
 
 <div className="max-w-sm m-3 p-3">
-  <Card imgSrc="Images/sedan.jpg">
+  <Card imgSrc="Images/sedan2.jpg">
     
     <h5 className="text-2xl font-bold tracking-tight text-black-600 dark:text-white">
      Sedan Car

@@ -6,7 +6,7 @@ import About from './Pages/about'
 import Departments from './Pages/services'
 import Contact from './Pages/contact'
 import Pricing from './Pages/pricing'
-import explore from './Pages/explore'
+import Explore from './Pages/explore'
 import Flowfooter from './components/footer'
 
 
@@ -24,7 +24,7 @@ function App() {
     <Route path="/departments" element={<Departments/>}></Route>
     <Route path="/contact" element={<Contact />}></Route>
     <Route path="/pricing" element={<Pricing />}></Route>
-    <Route path="/explore"  element={<explore/>}></Route>
+    <Route path="/explore" element={<Explore />}></Route>
     </Routes>
     
     </BrowserRouter>

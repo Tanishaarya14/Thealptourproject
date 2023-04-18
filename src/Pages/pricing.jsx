@@ -6,7 +6,6 @@ export default function Pricing() {
   return (
     <div>
       <Flowtables></Flowtables>
-      
     </div>
   )
 }
